@@ -1,0 +1,737 @@
+.home-page,
+.home-page * {
+  box-sizing: border-box;
+}
+
+.home-page {
+  height: 3248px;
+  position: relative;
+  overflow: hidden;
+}
+
+#background {
+  background-image: url('/public/images/Garage.png');
+}
+
+.garage-1 {
+  width: 100%;
+  height: 783px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+
+.autoshield-garage {
+  color: #c8c8c8;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 64px;
+  line-height: 0px;
+  font-weight: 700;
+  position: absolute;
+  left: 310px;
+  top: 215px;
+  width: 800px;
+  height: 116px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inquire-button {
+  background: #797979;
+  border-radius: 65px;
+  width: 280px;
+  height: 79px;
+  position: absolute;
+  left: 630px;
+  top: 545px;
+  cursor: pointer;
+}
+
+.inquire-button:hover{
+  background-color: #c8c8c8;
+}
+
+.inquire-now {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  linear-gradient(to left, #ffffff, #ffffff);
+  background-clip: text;
+  color: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 25px;
+  line-height: 0px;
+  letter-spacing: 0.15em;
+  font-weight: 700;
+  position: absolute;
+  left: 630px;
+  top: 545px;
+  width: 280px;
+  height: 79px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transform: translate(-2%, -2%);
+}
+
+.inquire-now:hover{
+  background-color: black;
+}
+
+.which-brake-line-wrench-is-right-for-my-vehicle {
+  width: 580px;
+  height: 750px;
+  position: absolute;
+  left: 130px;
+  top: 848px;
+  object-fit: cover;
+}
+
+.repairing-is-caring {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 48px;
+  line-height: 0px;
+  font-weight: 700;
+  position: absolute;
+  left: 789px;
+  top: 916px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.at-auto-shield-we-pride-ourselves-on-delivering-top-tier-automotive-services-our-expert-mechanics-ensure-that-every-vehicle-receives-meticulous-attention-and-high-quality-repairs-we-combine-state-of-the-art-technology-with-years-of-experience-to-keep-your-car-running-smoothly-and-reliably-trust-us-to-provide-exceptional-care-precision-and-dedication-for-all-your-automotive-needs {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: 700;
+  position: absolute;
+  left: 789px;
+  top: 950px;
+  width: 462px;
+  height: 601px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.what-we-offer {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 32px;
+  line-height: 50px;
+  font-weight: 700;
+  position: absolute;
+  left: 131px;
+  top: 1747px;
+  width: 289px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.repair-1-1 {
+  width: 380px;
+  height: 376px;
+  position: absolute;
+  left: 130px;
+  top: 1828px;
+  object-fit: cover;
+}
+
+.maintenance-regular-check-ups-to-maintain-and-ensure-your-car-s-performance {
+  color: #ffffff;
+  text-align: left;
+  position: absolute;
+  left: 130px;
+  top: 2210px;
+  width: 380px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.maintenance-regular-check-ups-to-maintain-and-ensure-your-car-s-performance-span {
+  color: #ffffff;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.maintenance-regular-check-ups-to-maintain-and-ensure-your-car-s-performance-span2 {
+  color: #ffffff;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.repair-2-1 {
+  width: 380px;
+  height: 373px;
+  position: absolute;
+  left: 530px;
+  top: 1829px;
+  object-fit: cover;
+}
+
+.repair-quality-service-that-guarantees-smooth-and-the-most-safest-rides {
+  color: #ffffff;
+  text-align: left;
+  position: absolute;
+  left: 530px;
+  top: 2210px;
+  width: 380px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.repair-quality-service-that-guarantees-smooth-and-the-most-safest-rides-span {
+  color: #ffffff;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.repair-quality-service-that-guarantees-smooth-and-the-most-safest-rides-span2 {
+  color: #ffffff;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.spares-1 {
+  width: 382px;
+  height: 373px;
+  position: absolute;
+  left: 929px;
+  top: 1829px;
+  object-fit: cover;
+}
+
+.parts-accessories-interior-parts-and-premium-exteriors-for-standout-styles {
+  color: #ffffff;
+  text-align: left;
+  position: absolute;
+  left: 929px;
+  top: 2210px;
+  width: 380px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.parts-accessories-interior-parts-and-premium-exteriors-for-standout-styles-span {
+  color: #ffffff;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.parts-accessories-interior-parts-and-premium-exteriors-for-standout-styles-span2 {
+  color: #ffffff;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.garage-2-1 {
+  width: 1441.84px;
+  height: 777px;
+  position: absolute;
+  left: 0px;
+  top: 2471px;
+  object-fit: cover;
+}
+
+.rectangle-2 {
+  background: #d9d9d9;
+  border-radius: 40px;
+  opacity: 0.1;
+  width: 180px;
+  height: 60px;
+  position: absolute;
+  left: 330px;
+  top: 73px;
+  cursor: pointer;
+}
+
+.home {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 0px;
+  font-weight: 700;
+  opacity: 0.7;
+  position: absolute;
+  left: 365px;
+  top: 92px;
+  width: 106px;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.rectangle-3 {
+  background: #d9d9d9;
+  border-radius: 40px;
+  opacity: 0.1;
+  width: 180px;
+  height: 60px;
+  position: absolute;
+  left: 530px;
+  top: 73px;
+  cursor: pointer;
+  cursor: pointer;
+}
+
+.about {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 0px;
+  font-weight: 700;
+  opacity: 0.7;
+  position: absolute;
+  left: 559px;
+  top: 92px;
+  width: 106px;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.rectangle-4 {
+  background: #d9d9d9;
+  border-radius: 40px;
+  opacity: 0.1;
+  width: 180px;
+  height: 60px;
+  position: absolute;
+  left: 730px;
+  top: 73px;
+  cursor: pointer;
+}
+
+.booking {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 0px;
+  font-weight: 700;
+  opacity: 0.7;
+  position: absolute;
+  left: 759px;
+  top: 92px;
+  width: 106px;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  cursor: pointer;
+}
+
+.rectangle-5 {
+  background: #d9d9d9;
+  border-radius: 40px;
+  opacity: 0.1;
+  width: 180px;
+  height: 60px;
+  position: absolute;
+  left: 930px;
+  top: 73px;
+  cursor: pointer;
+}
+
+.services {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 0px;
+  font-weight: 700;
+  opacity: 0.7;
+  position: absolute;
+  left: 959px;
+  top: 92px;
+  width: 106px;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.rectangle-6 {
+  background: #d9d9d9;
+  border-radius: 40px;
+  opacity: 0.1;
+  width: 180px;
+  height: 60px;
+  position: absolute;
+  left: 1130px;
+  top: 73px;
+  cursor: pointer;
+}
+
+.contact {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 0px;
+  font-weight: 700;
+  opacity: 0.7;
+  position: absolute;
+  left: 1158px;
+  top: 92px;
+  width: 106px;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.free-vector-auto-repair-logos-1 {
+  border-radius: 100px;
+  width: 149px;
+  height: 132px;
+  position: absolute;
+  left: 18px;
+  top: 26px;
+  mix-blend-mode: lighten;
+  object-fit: cover;
+}
+
+.rectangle-8 {
+  background: rgba(217, 217, 217, 0.1);
+  border-radius: 30px;
+  width: 1400px;
+  height: 596px;
+  position: absolute;
+  left: 32px;
+  top: 2652px;
+}
+
+.notification {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 1077px;
+  top: 2908px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.dahboard {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 1077px;
+  top: 2945px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.booking2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 1077px;
+  top: 2871px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.services2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 1077px;
+  top: 2841px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.about-us {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 1077px;
+  top: 2804px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.company {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  position: absolute;
+  left: 1077px;
+  top: 2753px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.privacy {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PublicSans-SemiBold", sans-serif;
+  font-size: 12px;
+  line-height: 23px;
+  font-weight: 600;
+  position: absolute;
+  left: 616px;
+  top: 3177px;
+}
+.security {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PublicSans-SemiBold", sans-serif;
+  font-size: 12px;
+  line-height: 23px;
+  font-weight: 600;
+  position: absolute;
+  left: 820px;
+  top: 3177px;
+}
+.terms-of-service {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PublicSans-SemiBold", sans-serif;
+  font-size: 12px;
+  line-height: 23px;
+  font-weight: 600;
+  position: absolute;
+  left: 389px;
+  top: 3177px;
+}
+.copyright-2024-all-rights-reserved {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  position: absolute;
+  left: 89px;
+  top: 3182px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mail {
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 115px;
+  top: 2936px;
+  mix-blend-mode: hard-light;
+  object-fit: cover;
+}
+.autoshied-gmail-com {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 181px;
+  top: 2950px;
+  width: 217px;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.phone {
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 115px;
+  top: 2784px;
+  mix-blend-mode: hard-light;
+  object-fit: cover;
+}
+._254723456789 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 181px;
+  top: 2792px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.location {
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 115px;
+  top: 2860px;
+  object-fit: cover;
+}
+.nairobi-kenya {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 184px;
+  top: 2868px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.instagram {
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1193px;
+  top: 3160px;
+  object-fit: cover;
+}
+.tiktok {
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1257px;
+  top: 3160px;
+  object-fit: cover;
+}
+.whatsapp {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1321px;
+  top: 3160px;
+  object-fit: cover;
+}
+
+.x {
+  border-radius: 10px;
+  width: 40px;
+  height: 42.77px;
+  position: absolute;
+  left: 1129px;
+  top: 3157px;
+  object-fit: cover;
+}
+.contact-us {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  position: absolute;
+  left: 486px;
+  top: 2671px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.rectangle-5:hover{
+  background-color: grey;
+  opacity: 0.7;
+}
+
+.rectangle-2:hover{
+  background-color: grey;
+  opacity: 0.7;
+}
+
+.rectangle-3:hover{
+  background-color: grey;
+  opacity: 0.7;
+}
+
+.rectangle-4:hover{
+  background-color: #797979;
+  opacity: 0.7;
+}
+
+.rectangle-6:hover{
+  background-color: #797979;
+  opacity: 0.7;
+}
+
+.home:hover, .home:active{
+  color: grey;
+}
+
+.about:hover, .about:active{
+  color: grey;
+}
+
+.booking:hover, .booking:active{
+  color: gray;
+}
+
+.services:hover, .service:active{
+  color: gray;
+}
+
+.contact:hover, .contact:active{
+  color: #797979;
+}
+
